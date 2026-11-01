@@ -1,0 +1,4 @@
+{
+	"gamerule.noblockupdates.disable_block_updates": "Disable block updates",
+	"gamerule.noblockupdates.disable_block_updates.description": "When on, blocks no longer react to changes next to them (flowers stay when the grass under them is broken, sand doesn't fall, redstone doesn't update)."
+}

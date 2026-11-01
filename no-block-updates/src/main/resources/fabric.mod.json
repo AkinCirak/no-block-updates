@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "noblockupdates",
+	"version": "${version}",
+	"name": "No Block Updates",
+	"description": "Adds the game rule noblockupdates:disable_block_updates. When true, block updates are turned off, so flowers, torches, sand and redstone stay put when their neighbours change.",
+	"authors": ["You"],
+	"license": "CC0-1.0",
+	"icon": "assets/noblockupdates/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dev.noblockupdates.NoBlockUpdates"]
+	},
+	"mixins": ["noblockupdates.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
